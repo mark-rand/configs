@@ -11,7 +11,8 @@ set shiftwidth=4
 " On pressing tab, insert 4 spaces
 set expandtab
 
-set relativenumber number
+"set relativenumber " Line numbers are relative from the current line
+set number
 
 " Colour cursor line
 hi CursorLine   cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
